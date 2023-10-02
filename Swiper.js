@@ -3,8 +3,8 @@ import { View, StyleSheet, Text, Image, ScrollView, Dimensions, TouchableOpacity
 import { profiles } from './data'; // Assuming data.js is in the same directory
 import { PanGestureHandler, State } from 'react-native-gesture-handler';
 
-// Import wer logo image
-import logoImage from './assets/logo.webp'; // Replace with the actual path to wer logo image
+// Import logo image
+import logoImage from './assets/logo.webp'; 
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 
@@ -47,18 +47,18 @@ const Swiper = () => {
   };
 
   const handleSignIn = () => {
-    // Implement wer sign-in logic here
+    // Implement  sign-in logic here
     // This is where we can add code to authenticate the user
-    // For example, we can make an API request to wer authentication server
+    // For example, we can make an API request to  authentication server
     // Once the user is successfully authenticated, we can navigate to the main app screen
     // For now, let's just display a message:
     alert('Sign In button pressed');
   };
 
   const handleSignUp = () => {
-    // Implement wer sign-up logic here
+    // Implement  sign-up logic here
     // This is where we can add code to register a new user
-    // For example, we can make an API request to wer registration server
+    // For example, we can make an API request to  registration server
     // Once the user is successfully registered, we can navigate to the main app screen
     // For now, let's just display a message:
     alert('Sign Up button pressed');
